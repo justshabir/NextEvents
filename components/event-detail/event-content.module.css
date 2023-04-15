@@ -1,0 +1,44 @@
+.content {
+  margin: 2rem auto;
+  max-width: 40rem;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+@media only screen and (min-width: 768px) {
+  .content {
+    padding: 3rem;
+  }
+}
+
+.content h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #333333;
+}
+
+.content p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #666666;
+}
+
+.content a {
+  display: block;
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  font-size: 1.2rem;
+  text-align: center;
+  color: #ffffff;
+  background-color: #c0392b;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.content a:hover {
+  background-color: #e74c3c;
+}

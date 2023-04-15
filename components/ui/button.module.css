@@ -1,0 +1,18 @@
+.btn {
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #03be9f;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #2cbfaf;
+  border-color: #02afa1;
+}

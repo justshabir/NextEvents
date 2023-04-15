@@ -1,0 +1,12 @@
+.arrow {
+  width: 2rem;
+  height: 2rem;
+  transform: translateY(-0.1rem);
+  transition: transform 0.3s;
+}
+
+.arrow:hover {
+  transform: translateY(-0.3rem);
+  transition: transform 0.3s;
+  cursor: pointer;
+}

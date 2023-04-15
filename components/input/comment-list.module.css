@@ -1,0 +1,57 @@
+.comments {
+  list-style: none;
+  margin: 2rem 0;
+  padding: 0;
+}
+
+.comments li {
+  background-color: #f6f6f6;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.comments li p {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.comments li address {
+  display: block;
+  font-style: normal;
+  margin-top: 0.5rem;
+}
+
+.comments li div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.comments li div span {
+  margin-right: 0.5rem;
+}
+
+.comments li div svg {
+  fill: #888;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.comments li div button {
+  background-color: transparent;
+  border: none;
+  color: #888;
+  cursor: pointer;
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-right: 0.5rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.comments li div button:hover,
+.comments li div button:focus {
+  color: #222;
+  outline: none;
+}

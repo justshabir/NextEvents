@@ -1,0 +1,54 @@
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.controls {
+  display: flex;
+  gap: 1rem;
+}
+
+.control {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.select {
+  font: inherit;
+  padding: 0.5rem 2rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  max-width: 12rem;
+}
+
+.button {
+  font: inherit;
+  color: white;
+  background-color: #0d6efd;
+  padding: 0.5rem 2rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:active {
+  background-color: #0c5ca9;
+}
+
+@media (max-width: 30rem) {
+  .control {
+    margin-bottom: 1rem;
+  }
+
+.select {
+    max-width: 100%;
+  }
+}
